@@ -1,14 +1,14 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('fox-store').then((cache) => cache.addAll([
-      '/site_de_laura/a2hs/',
-      '/site_de_laura/a2hs/index.html',
-      '/site_de_laura/a2hs/index.js',
-      '/site_de_laura/a2hs/style.css',
-      '/site_de_laura/a2hs/images/fox1.jpg',
-      '/site_de_laura/a2hs/images/fox2.jpg',
-      '/site_de_laura/a2hs/images/fox3.jpg',
-      '/site_de_laura/a2hs/images/fox4.jpg',
+      'https://hikachhu.github.io/site_de_laura/a2hs/',
+      'https://hikachhu.github.io/site_de_laura/a2hs/index.html',
+      'https://hikachhu.github.io/site_de_laura/a2hs/index.js',
+      'https://hikachhu.github.io/site_de_laura/a2hs/style.css',
+      'https://hikachhu.github.io/site_de_laura/a2hs/images/fox1.jpg',
+      'https://hikachhu.github.io/site_de_laura/a2hs/images/fox2.jpg',
+      'https://hikachhu.github.io/site_de_laura/a2hs/images/fox3.jpg',
+      'https://hikachhu.github.io/site_de_laura/a2hs/images/fox4.jpg',
     ])),
   );
 });
